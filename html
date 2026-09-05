@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafios do Século 21 | Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">Século<span>21</span></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#artigos">Artigos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle" class="btn-theme">Modo Escuro</button>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Analisando os Maiores Desafios da Nossa Era</h1>
+        <p>Tecnologia, mudanças climáticas, impacto social e o futuro da humanidade.</p>
+    </section>
+
+    <main id="artigos" class="container">
+        <h2>Últimas Publicações</h2>
+        <div class="posts-grid">
+
+            <article class="card">
+                <span class="tag ambiente">Sustentabilidade</span>
+                <h3>Crise Climática e Transição Energética</h3>
+                <p>Como o aquecimento global e as novas matrizes energéticas moldam a política e a economia mundial.</p>
+                <button class="btn-read" onclick="lerArtigo('Crise Climática')">Ler mais</button>
+            </article>
+
+            <article class="card">
+                <span class="tag tecnologia">Tecnologia</span>
+                <h3>Inteligência Artificial e o Futuro do Trabalho</h3>
+                <p>Os impactos da automação na sociedade e o surgimento de novas profissões no século XXI.</p>
+                <button class="btn-read" onclick="lerArtigo('Inteligência Artificial')">Ler mais</button>
+            </article>
+
+            <article class="card">
+                <span class="tag saude">Saúde & Sociedade</span>
+                <h3>Saúde Mental na Era Hyperconectada</h3>
+                <p>O desafio do excesso de telas, redes sociais e a busca por bem-estar na era digital.</p>
+                <button class="btn-read" onclick="lerArtigo('Saúde Mental')">Ler mais</button>
+            </article>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Blog Desafios do Século 21. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
